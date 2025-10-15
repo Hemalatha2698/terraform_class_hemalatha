@@ -1,5 +1,5 @@
 module "ec2" {
-    source = "../modules/ec2"
+    source = "git@github.com:Hemalatha2698/remote-modules.git//ec2?ref=v1.0.2"
     instance-type = "t3.medium"
     
   
